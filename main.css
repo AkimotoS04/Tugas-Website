@@ -90,11 +90,6 @@ margin:0px;
 float:left;
 }
 
-img {
-max-width: 100%; 
-height: auto;
-}
-
 img:hover{
 	transition:0.3s;
 	transform:scale(1.1);
@@ -103,6 +98,7 @@ img:hover{
 .padding-8{ 
 padding: 8px;
 }
+
 .padding-16 { 
 padding: 16px;
 }
@@ -230,10 +226,24 @@ nav a:hover{
 
 @media screen and (max-width: 720px) { 
 
-	img {
-		width: 40%;
-		height: 40%;
+	div img {
+		width: 30%;
+		height: 30%;
 		margin: 15px;
+	}
+	img {
+		width: 30%;
+		height: 30%;
+		margin: 15px;
+	}
+	p {
+		display: inline-flex;
+	}
+	h1, h4 {
+		text-align: center;
+	}
+	nav a {
+		align-self: : center;
 	}
 }
 
@@ -253,6 +263,7 @@ label {
 	display: inline-block;
 	width: 350px;
 	text-align: left;
+	color: white;
 }
 
 input, textarea {
