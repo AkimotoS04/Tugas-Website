@@ -118,6 +118,10 @@ h1{
 font-size: 64px;
 }
 
+h3{
+	font-size: 32px;
+}
+
 h4{
 font-size: 18px;
 }
@@ -214,11 +218,6 @@ nav a:hover{
 	color:black;
 }
 
-#skills img{
-	width:300px;
-	height: auto;
-}
-
 #contact {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -288,4 +287,18 @@ textarea {
 
 button:hover {
 	color: grey;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-container div {
+  margin : auto;
+}
+
+.flex-container div div {
+	margin: auto;
 }
